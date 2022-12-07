@@ -1,0 +1,36 @@
+<HTML>
+  <HEAD>
+    <TITLE>Fast Food</TITLE>
+    <style>
+      .scale {
+    transition: 1s; /* Время эффекта */
+   }
+   .scale:hover {
+    transform: scale(1.2); /* Увеличиваем масштаб */
+   }
+    </style>
+    <meta charset="utf-8">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+  </HEAD>
+  <BODY>
+    <CENTER>
+    <H1>Тыкните</H1><br>
+    <IMG src="i1.jpg" width="400" name="pic1" title="1" style="margin: 10px 30px 30px 30px" onClick="chan1(form1)" class="scale">
+    <IMG src="i2.jpg" width="400" name="pic2" title="2" style="margin: 10px 30px 30px 30px" onClick="chan2(form1)"class="scale">
+    <IMG src="i3.jpg" width="400" name="pic3" title="3" style="margin: 10px 30px 30px 30px" onClick="chan3(form1)"class="scale"> <br>
+
+    
+
+    <form name="form1"></form>
+      <img id="result" width="400" style="margin: 10px 30px 30px 30px" class="scale" />
+      <div class="bill"></div>
+    </CENTER>
+    <script src="script.js"></script>
+  </BODY>
+</HTML>
